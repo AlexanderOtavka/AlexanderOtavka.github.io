@@ -1,1 +1,28 @@
+title: Zander Otavka
+description: Software Engineer & Blogger
+baseurl: ""
+url: "https://alexanderotavka.github.io"
+
+author:
+  name: "Alexander Otavka"
+
 theme: jekyll-theme-midnight
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /:categories/:year/:month/:day/:title/
+paginate: 5
+paginate_path: "/page:num/"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+title_separator: " | "
+social:
+  linkedin: https://linkedin.com/in/alexander-otavka
+  github: https://github.com/AlexanderOtavka
