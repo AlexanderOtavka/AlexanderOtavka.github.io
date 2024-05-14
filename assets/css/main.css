@@ -49,6 +49,10 @@ main {
   max-width: 50rem;
 }
 
+main a {
+  color: #444444;
+}
+
 footer {
   background: #f8f8f8;
   padding: 1rem 0;
@@ -76,13 +80,17 @@ footer {
     background-color: #333333;
     color: #ffffff;
   }
-  
+
   header, footer {
     background: #444444;
     border-color: #555555;
   }
-  
+
   nav ul li a {
     color: #ffffff;
+  }
+
+  main a {
+    color: #e7e7e7;
   }
 }

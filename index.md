@@ -24,9 +24,7 @@ I have experience in various fields including software engineering, data science
 
 ## Connect with Me
 
-You can find me on:
-
-- [LinkedIn](https://linkedin.com/in/alexander-otavka)
-- [GitHub](https://github.com/AlexanderOtavka)
+You can find me on [LinkedIn](https://linkedin.com/in/alexander-otavka) or
+[GitHub](https://github.com/AlexanderOtavka).
 
 Feel free to reach out if you want to connect or collaborate on a project!
