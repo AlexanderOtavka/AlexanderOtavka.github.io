@@ -1,4 +1,4 @@
-title: Zander Otavka
+title: Zander (Alexander) Otavka
 description: Software Engineer & Blogger
 baseurl: ""
 url: "https://alexanderotavka.github.io"
@@ -24,5 +24,5 @@ defaults:
 
 title_separator: " | "
 social:
-  linkedin: https://linkedin.com/in/alexander-otavka
-  github: https://github.com/AlexanderOtavka
+  linkedin: alexander-otavka
+  github: AlexanderOtavka
