@@ -3,13 +3,15 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Blog
-
-Hi, I'm Zander Otavka, a Software Engineer and Blogger. Welcome to my personal blog where I share my thoughts on software development, technology, and more.
+Hi, I'm Zander Otavka, a Software Engineer, and lately a Blogger. Welcome to my
+personal blog where I share my thoughts on software development, technology, and
+more.
 
 ## About Me
 
-I have experience in various fields including software engineering, data science, and security. I enjoy learning new technologies and sharing my knowledge with others.
+I have experience in various fields including software engineering, data
+science, and security. I enjoy learning new technologies and sharing my
+knowledge with others.
 
 ## Recent Posts
 
