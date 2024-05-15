@@ -22,6 +22,9 @@ knowledge with others.
       <span>{{ post.date | date_to_string }}</span>
     </li>
   {% endfor %}
+  <li>
+    <a href="{{ site.baseurl }}/blog/">See more posts...</a>
+  </li>
 </ul>
 
 ## Connect with Me
