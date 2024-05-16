@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 .nav-home {
-  font-weight: bold;
+  font-family: 'Source Code Pro', monospace;
 }
 
 main {
