@@ -2,7 +2,7 @@
 > Personal Website
 
 This is my personal website repo, built with jekyll, served with Github pages,
-and accessible at https://alexanderotavka.github.io.
+and accessible at https://zanderotavka.com.
 
 ## Development
 
