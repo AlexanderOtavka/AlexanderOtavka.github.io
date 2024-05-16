@@ -13,5 +13,5 @@ to create local dev server.
 
 ### Installing Dependencies
 
-Add your dependencies to `Gemfile`, then run `./setup.sh` to rebuild the
-associated `Gemfile.lock` and `gemset.nix` automatically.
+Add your dependencies to `Gemfile`, then run `./generate-lockfiles.sh` to
+rebuild the associated `Gemfile.lock` and `gemset.nix` automatically.
