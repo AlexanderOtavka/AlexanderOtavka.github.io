@@ -1,7 +1,7 @@
 ---
 title: So… what am I doing here?
 summary: An introductory post outlining the purpose and content of my personal blog, including technical deep dives, career insights, and personal reflections.
-categories: [blogging]
+tags: [blogging]
 date: 2024-05-16
 ---
 

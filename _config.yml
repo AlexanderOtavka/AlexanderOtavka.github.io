@@ -11,9 +11,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-permalink: /:categories/:year/:month/:day/:title/
-# paginate: 5
-# paginate_path: "/page:num/"
+permalink: /blog/:categories/:year/:month/:day/:title/
 
 defaults:
   - scope:
