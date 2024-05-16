@@ -5,11 +5,10 @@ title: Blog
 
 ## Recent Posts
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <span>{{ post.date | date: "%B %d, %Y" }}</span>
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+  <h3>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span>&mdash; {{ post.date | date: "%B %d, %Y" }}</span>
+  </h3>
+  <p><i>{{ post.summary }}</i></p>
+{% endfor %}
