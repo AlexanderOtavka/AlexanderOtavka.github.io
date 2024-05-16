@@ -58,6 +58,13 @@ main a {
   color: #444444;
 }
 
+hr {
+  border: 0;
+  height: 1px;
+  background: #cccccc;
+  margin: 1rem 0;
+}
+
 footer {
   background: #f8f8f8;
   padding: 1rem 0;
