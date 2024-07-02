@@ -1,17 +1,29 @@
+/* Colors */
+:root {
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --header-background-color: #f8f8f8;
+  --header-border-color: #e7e7e7;
+  --main-link-color: #444444;
+  --hr-color: #cccccc;
+  --footer-background-color: var(--header-background-color);
+  --footer-border-color: var(--header-border-color);
+}
+
 /* Base styles */
 body {
   font-family: 'Merriweather', serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #ffffff;
-  color: #333333;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 header {
-  background: #f8f8f8;
+  background: var(--header-background-color);
   padding: 1rem 0;
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid var(--header-border-color);
 }
 
 header h1 {
@@ -41,7 +53,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: var(--text-color);
 }
 
 .nav-home {
@@ -55,25 +67,25 @@ main {
 }
 
 main a {
-  color: #444444;
+  color: var(--main-link-color);
 }
 
 hr {
   border: 0;
   height: 1px;
-  background: #cccccc;
+  background: var(--hr-color);
   margin: 1rem 0;
 }
 
 footer {
-  background: #f8f8f8;
+  background: var(--footer-background-color);
   padding: 1rem 0;
-  border-top: 1px solid #e7e7e7;
+  border-top: 1px solid var(--footer-border-color);
   text-align: center;
 }
 
 footer a {
-  color: inherit;
+  color: var(--text-color);
 }
 
 .social-links {
@@ -86,27 +98,14 @@ footer a {
   color: inherit;
 }
 
-.social-links i {
-  margin-right: 0.5rem;
-}
-
 /* Dark mode styles */
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #333333;
-    color: #ffffff;
-  }
-
-  header, footer {
-    background: #444444;
-    border-color: #555555;
-  }
-
-  nav ul li a {
-    color: #ffffff;
-  }
-
-  main a {
-    color: #e7e7e7;
+  :root {
+    --background-color: #333333;
+    --text-color: #ffffff;
+    --header-background-color: #444444;
+    --header-border-color: #555555;
+    --main-link-color: #e7e7e7;
+    --hr-color: #cccccc;
   }
 }
