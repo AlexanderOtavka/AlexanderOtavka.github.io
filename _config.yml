@@ -1,10 +1,10 @@
-title: Zander (Alexander) Otavka
+title: Zander Otavka
 description: Software Engineer & Blogger
 baseurl: ""
 url: "https://zanderotavka.com"
 
 author:
-  name: "Alexander Otavka"
+  name: "Zander Otavka"
 
 theme: jekyll-theme-midnight
 plugins:
