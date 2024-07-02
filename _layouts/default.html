@@ -46,7 +46,12 @@
   ></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      mermaid.initialize({ startOnLoad: true, theme: 'default' });
+      const isDarkMode = window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches;
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: isDarkMode ? 'dark' : 'neutral',
+      });
       mermaid.init(undefined, document.querySelectorAll('code.language-mermaid'));
     });
   </script>
