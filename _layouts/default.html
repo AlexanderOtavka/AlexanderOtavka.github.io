@@ -37,5 +37,17 @@
     </p>
     {% include social.html %}
   </footer>
+
+  <script
+    src="https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js"
+    integrity="sha384-WmdflGW9aGfoBdHc4rRyWzYuAjEmDwMdGdiPNacbwfGKxBW/SO6guzuQ76qjnSlr"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      mermaid.initialize({ startOnLoad: true, theme: 'default' });
+      mermaid.init(undefined, document.querySelectorAll('code.language-mermaid'));
+    });
+  </script>
 </body>
 </html>
