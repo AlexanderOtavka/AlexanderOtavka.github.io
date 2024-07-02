@@ -25,6 +25,7 @@ p code {
 pre.highlight {
   padding: 1rem;
   border: 1px solid #eee8d5;
+  overflow-x: auto;
 }
 
 @media (prefers-color-scheme: dark) {
