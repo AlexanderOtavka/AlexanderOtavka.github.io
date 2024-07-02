@@ -6,10 +6,14 @@ url: "https://zanderotavka.com"
 author:
   name: "Zander Otavka"
 
-theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 permalink: /blog/:categories/:year/:month/:day/:title/
 

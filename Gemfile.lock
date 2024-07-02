@@ -73,7 +73,8 @@ DEPENDENCIES
   jekyll-feed
   jekyll-seo-tag
   jekyll-theme-midnight
+  rouge
   webrick
 
 BUNDLED WITH
-   2.4.22
+   2.5.9
