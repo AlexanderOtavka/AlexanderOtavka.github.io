@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Home
 ---
 
 Hi, I'm Zander Otavka, a Software Engineer, and lately a Blogger. Welcome to my
