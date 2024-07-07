@@ -1,59 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/code-theme.css' | relative_url }}">
-
-  <!-- Favicon and Apple Touch Icons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/icons/apple-touch-icon.png' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/icons/favicon-32x32.png' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/icons/favicon-16x16.png' | relative_url }}">
-  <link rel="shortcut icon" href="{{ '/assets/icons/favicon.ico' | relative_url }}">
+  {% include head.html %}
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="{{ site.baseurl }}/" class="nav-home">{{ site.title }}</a></li>
-        <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
-      </ul>
-      {% include social.html %}
-    </nav>
-  </header>
+  {% include header.html %}
+
   <main>
     <h1>{{ page.title }}</h1>
     {{ content }}
   </main>
-  <footer>
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. All rights reserved.</p>
-    <p>
-      <a href="https://github.com/AlexanderOtavka/AlexanderOtavka.github.io/tree/main" target="_blank">
-        Source code on GitHub
-      </a>
-    </p>
-    {% include social.html %}
-  </footer>
 
-  <script
-    src="https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js"
-    integrity="sha384-WmdflGW9aGfoBdHc4rRyWzYuAjEmDwMdGdiPNacbwfGKxBW/SO6guzuQ76qjnSlr"
-    crossorigin="anonymous"
-  ></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const isDarkMode = window.matchMedia &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches;
-      mermaid.initialize({
-        startOnLoad: true,
-        theme: isDarkMode ? 'dark' : 'neutral',
-      });
-      mermaid.init(undefined, document.querySelectorAll('code.language-mermaid'));
-    });
-  </script>
+  {% include footer.html %}
+  {% include scripts.html %}
 </body>
 </html>

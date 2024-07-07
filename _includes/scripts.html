@@ -1,0 +1,16 @@
+<script
+  src="https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js"
+  integrity="sha384-WmdflGW9aGfoBdHc4rRyWzYuAjEmDwMdGdiPNacbwfGKxBW/SO6guzuQ76qjnSlr"
+  crossorigin="anonymous"
+></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const isDarkMode = window.matchMedia &&
+      window.matchMedia('(prefers-color-scheme: dark)').matches;
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: isDarkMode ? 'dark' : 'neutral',
+    });
+    mermaid.init(undefined, document.querySelectorAll('code.language-mermaid'));
+  });
+</script>
