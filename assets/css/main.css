@@ -2,6 +2,7 @@
 :root {
   --background-color: #ffffff;
   --text-color: #333333;
+  --secondary-text-color: #555555;
   --header-background-color: #f8f8f8;
   --header-border-color: #e7e7e7;
   --main-link-color: #444444;
@@ -70,6 +71,19 @@ main a {
   color: var(--main-link-color);
 }
 
+.post-metadata > * {
+  color: var(--secondary-text-color);
+  margin-right: 1rem;
+}
+
+blockquote {
+  margin: 1rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--secondary-text-color);
+  color: var(--secondary-text-color);
+  font-style: italic;
+}
+
 hr {
   border: 0;
   height: 1px;
@@ -103,6 +117,7 @@ footer a {
   :root {
     --background-color: #333333;
     --text-color: #ffffff;
+    --secondary-text-color: #dddddd;
     --header-background-color: #444444;
     --header-border-color: #555555;
     --main-link-color: #e7e7e7;

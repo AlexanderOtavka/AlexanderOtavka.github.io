@@ -22,9 +22,8 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "default"
+      layout: "post"
 
-title_separator: " | "
 social:
   linkedin: alexander-otavka
   github: AlexanderOtavka
