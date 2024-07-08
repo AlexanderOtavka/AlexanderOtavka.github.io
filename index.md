@@ -18,7 +18,7 @@ knowledge with others.
   {% for post in site.posts limit:5 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      <span>&mdash; {{ post.date | date_to_string }}</span>
+      <span>&mdash; {{ post.date | date: "%B %-d, %Y" }}</span>
     </li>
   {% endfor %}
   <li>
